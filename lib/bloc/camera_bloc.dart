@@ -24,6 +24,7 @@ class CameraBloc extends Bloc<CameraEvent, CameraState> {
     on<DeleteImage>(_onDeleteImage);
     on<ClearSnackbar>(_onClearSnackbar);
     on<RequestPermissions>(_onRequestPermissions);
+    on<TakePicture>(_onTakePicture);
   }
 
   Future<void> _onInit(

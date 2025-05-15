@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Beranda')),
+      appBar: AppBar(title: const Text('Beranda bloc')),
       body: SafeArea(
         child: BlocConsumer<CameraBloc, CameraState>(
           listener: (context, state) {
